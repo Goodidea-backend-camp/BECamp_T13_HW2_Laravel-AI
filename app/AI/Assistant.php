@@ -13,7 +13,7 @@ class Assistant
         $this->client = OpenAI::client(config('services.openai.api_key'));
     }
 
-    public function hello(): void
+    public function hello()
     {
         echo 'hello world';
     }
